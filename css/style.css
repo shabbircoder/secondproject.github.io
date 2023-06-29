@@ -1,0 +1,642 @@
+/* fonts */
+@font-face {
+    font-family: Roboto,Robota;
+    src: url(../fonts/Roboto\,Roboto_Condensed.zip);
+}
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    font-family: Roboto,Robota;
+}
+/* body */
+*{
+    margin: 0;
+    padding: 0;
+}
+.uni-padding{
+    padding: 0 7%;
+}
+
+/* topbar */
+#topbar{
+    background-color: rgb(103, 103, 103);
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+#tollfree{
+  float: left;
+  color: wheat;
+  margin-top: 0.7%;
+}
+#icon{
+    float: right;
+}
+.fa{
+    background-color: white;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+/* logo bar */
+#logobar img {
+    margin: 25px 0;
+    width: 100px;
+    height: 85px;
+    border-radius: 50%;
+}
+
+  /* navbar */
+  #navbar{
+    background-color: rgb(235, 91, 91);
+  }
+  #navbar ul li{
+    display: inline-block;
+    padding: 20px 0;
+    padding-right: 35px;
+  }
+  #navbar ul{
+    margin: 0
+    ;
+  }
+  #navbar ul li a{ 
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+  }
+ 
+  #navbar ul li a:hover{ 
+    color: red;
+  }
+  /* header end  */
+ 
+  /* poster start */
+
+#poster{
+  /* background-image: url(../images/couple.jpg); */
+  background-image: url(../images/dosti.jpg);
+height: 500px;
+background-position: center;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+color: aliceblue;
+flex-direction: column;
+position: relative;
+
+}
+/* 
+#poster h3{
+  font-size: 50px;
+  padding: 20px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+
+} */
+
+#poster p {
+  width: 70%;
+  top: 60%;
+  position: absolute;
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+/* ---------------------------- */
+h1{
+	margin: 0px;
+	padding: 0px;
+	font-size: 80px;
+	color: #ddd;
+	position: absolute;
+	top: 20%;
+	text-align: center;
+	width: 100%;
+	transform: translateY(50%);
+	letter-spacing: 2px;
+}
+h1 span{
+	opacity: 0;
+	display: inline-block;
+	animation: anim 1s linear forwards;
+}
+@keyframes anim{
+	0%{
+		opacity: 0;
+		transform: rotateY(-90deg);
+		filter: blur(10px);
+	}
+	100%{
+		opacity: 1;
+		transform: rotateY(0deg);
+		filter: blur(0);
+
+	}
+}
+h1 span:nth-child(1){
+	animation-delay: 1s;
+	color: pink;
+}
+h1 span:nth-child(2){
+	animation-delay: 1.5s;
+	color: pink;
+}
+h1 span:nth-child(3){
+	animation-delay: 2s;
+	color: pink;
+}
+h1 span:nth-child(4){
+	animation-delay: 2.5s;
+	color: pink;
+}
+h1 span:nth-child(5){
+	animation-delay: 3s;
+	color: pink;
+}
+h1 span:nth-child(6){
+	animation-delay: 3.5s;
+	color: pink;
+}
+h1 span:nth-child(7){
+	animation-delay: 4s;
+}
+h1 span:nth-child(8){
+	animation-delay: 4.5s;
+}
+h1 span:nth-child(9){
+	animation-delay: 5s;
+}
+h1 span:nth-child(10){
+	animation-delay: 5.5s;
+}
+
+
+
+/* ---------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* poster end  */
+
+
+/* why us section  */
+/* imges */
+.img1 {
+  width: 90px;
+}
+/* imges end */
+
+#whysection{
+  overflow: auto;
+  margin-bottom: 50px;
+}
+.red-heading {
+  color: red;
+  text-align: center;
+  font-size: 35px;
+  margin: 50px;
+}
+.sectation33 {
+  width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 0 50px 0 50px;
+    box-sizing: border-box;
+}
+.sectation33 h2{
+  color: red ;
+  margin: 20px;
+}
+
+.sectation33 h2:hover{
+  color: rgba(7, 243, 160, 0.91);
+}
+
+.sectation33 p {
+  width: 90%;
+  color: #363636;
+  text-align: justify;
+}
+
+/* why us section  end  */
+
+/* contact section start */
+
+#contact-container {
+  background-color: rgb(243, 94, 94);
+  color: white;
+  overflow: auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+#section70{
+  width: 70%;
+  float: left;
+}
+#section30{
+  width: 30%;
+  float: left;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+#contact-btn{
+  transition: 0.58s;
+  background-color: white;
+  color: red;
+  padding: 15px 50px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+#contact-btn:hover{
+  border: 1px solid red ;
+  background-color: rgb(239, 91, 91);
+}
+
+/* contact us section end  */
+
+/* blog satrt */
+.img2
+{
+  width: 250px;
+}
+.sectation33 a {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+/* blog end */
+
+/* subscribe start */
+#subscribe-section {
+  background-color:  rgb(235, 91, 91);
+  color: white;
+  overflow: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.section50{
+  width: 50%;
+  float: left;
+}
+.section50 input[type="text"]{
+  padding: 10px 15px;
+  font-style: 17px;
+  color: red;
+  margin-right: 20px;
+  border: none;
+  width: 45%;
+  border-radius: 20px;
+}
+.section50 input[type="submit"]{
+  padding: 8px 15px;
+  font-size: 15px;
+  color: red;
+  border: none;
+  width: 30%;
+  border-radius: 35px;
+  cursor: pointer;
+}
+
+.section50 input[type="submit"]:hover{
+  background-color: rgb(55, 153, 55);
+  border: 1px solid black;
+}
+.section50 h2 {
+  font-size: 27px;
+  padding-right: 50px;
+  text-align: right;
+}
+.section50 form {
+}
+
+/* 
+  footer */
+  #imp-link{
+    background-color: rgb(163, 140, 233);
+    color: white;
+    overflow: auto;
+  }
+  .div33{
+    height: 250px;
+    width: 33.33%;
+    float: left;
+    pad: 25px 50px ;
+    box-sizing: border-box;
+  }
+  .div33 p {
+    text-align: justify;
+  }
+  .div33 h3{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+  }
+  .div33 h3{
+    margin: 20px 0 20px 0;
+  }
+
+
+  #footer-menu {
+    list-style-type: none;
+    padding: 0% ;
+  }  
+
+  #footer-menu li {
+    padding-bottom: 10px;
+ }
+ #footer-menu li a{
+  text-decoration: none;
+  color: white;
+ }
+ 
+ #footer-menu li a:hover{
+  color: red;
+ }
+
+ #footer-menu-container{
+  padding-left: 100px;
+ }
+
+ /* copy right */
+ #copyright {
+  background-color: #222f3e;
+  text-align: center;
+  color: #cdcdcd;
+  padding: 10px;
+ }
+
+
+/* menu bar  */
+
+
+
+/* about html ki csss */
+.about-para{
+  text-align: justify;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* services html ki cvss */
+.img3 {
+  width: 200px;
+  border-radius: 10px;
+}
+.sectation33 img3 p{
+  text-align: center;
+}
+
+
+/* portofolio hmtlki css */
+
+pro-container{
+  overflow: auto;
+}
+
+
+/* menu bar */
+
+#navbar ul #mobile-cross  , #mobile-bar{
+ display: none;
+}
+
+
+/* RESPONSIVE I PAD */
+
+@media only screen and (max-width : 768px){
+  #navbar ul li {
+    padding-right: 25px;
+}
+.section50 h2 {
+  font-size: 21px;
+  padding-right: 40px;
+ }
+ .img2 {
+  width: 150px;
+}
+.sectation33 h2 {
+  margin: 10px 0 9px 0;
+}
+
+}
+
+
+/* responsive mobile  */
+@media only screen and (max-width : 768px){
+
+  #poster h1 {
+    font-size: 32px;
+ }
+
+ #poster p {
+  top: 40%;
+ 
+}
+
+
+ .sectation33{
+  width: 100%;
+  padding: 20px;
+ }
+ .sectation33 a {
+  margin-top: 20px; 
+ }
+
+ .section50 h2 {
+  font-size: 14px;
+  padding-right: 8px;
+  margin-top: 30px;
+  text-align: left;
+}
+.section50 input[type="text"] {
+    width: 67%;
+    margin-bottom: 5px; 
+}
+.section50 input[type="submit"] {
+  font-size: 14px;
+  width: 49%;
+ }
+
+ #contact-btn {
+  padding: 9px 10px;
+  font-size: 12px;
+  text-align: center;
+  justify-content: center;
+ }
+
+ .div33{
+  width: 100%;
+  height: auto;
+
+  pad: 10px 20px ;
+ }
+ #footer-menu-container{
+  padding-left: 0px;
+ }
+
+ #navbar ul li a {
+  color: white;
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+#navbar ul li {
+  padding-right: 5px;
+}
+
+
+ #poster{
+  background-image: url(../images/dosti.jpg);
+  height: 300px;
+  }
+
+  .sectation33 p {
+    
+    margin-bottom: 10px;
+}
+
+}
+
+/* mobile menu  */
+
+
+@media only screen and (max-width : 768px){
+
+  #navbar {
+    background-color: rgb(235, 91, 91);
+    position: absolute;
+    top: 0%;
+    width: 280px;
+    height: 100vh;
+    padding: 0;
+}
+#navbar ul li {
+  display: block;
+  padding-right: 5px;
+  border-bottom: 1px solid gray;
+  padding-left: 25px;
+}
+#navbar ul li a {
+  font-size: 20px;
+}
+
+#mobile-cross{
+  text-align: right;
+}
+.fa-circle-xmark {
+  font-size: 25px;
+  padding-right: 15px;
+}
+#navbar{
+  z-index: 1;
+  left: -280px;
+  transition: .7s ease;
+}
+#mobile-bar{
+  background-color: red;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#navbar ul #mobile-cross  , #mobile-bar{
+  display: block;
+ }
+
+
+}
+
+
+/* animation  */
+
+#flash:hover{
+	animation: flash .5s ease-out;
+}
+@keyframes flash{
+	0%{
+        opacity: 1;
+    }
+	25%{
+    opacity: 0.59;
+}
+	50%{
+opacity: 0;
+	}
+	75%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+
+/* about page ke bottan ki css */
+
+.color-btn{
+  width: 30px;
+  height: 30px;
+  border: 1px solid red;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 7px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.white{
+  background-color: white;
+}
+.aqua{
+  background-color: aqua;
+}
+.pink{
+  background-color: pink;
+}
+.black{
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
